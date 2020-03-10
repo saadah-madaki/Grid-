@@ -1,0 +1,88 @@
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+    margin: 50px;
+}
+
+.item1{
+    background-color: rgb(24, 68, 82);
+}
+.item2{
+    background-color: cadetblue;
+
+}
+.item3{
+    background-color: rgb(12, 34, 37);
+}
+.item4{
+    background-color: cyan;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+    margin: 50px;
+
+}
+.item5{
+    background-color: darkcyan;
+}
+
+.grid-container3{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.item6{
+    background-color: darkslategrey;
+}
+
+.item7{
+    background-color: rgb(37, 37, 77);
+}
+
+.item8{
+    background-color: rgb(39, 39, 53);
+}
+
+.grid-container4{
+    display: grid;
+    grid-template-columns:1fr 1.5fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+    margin: 50px;
+}
+
+.item9{
+    background-color: rgb(3, 3, 36);
+}
+
+.item10{
+    background-color: rgb(39, 39, 53);
+}
+
+p{
+    margin-top: 90px;
+    color: white;
+    font-size: large;
+}    
